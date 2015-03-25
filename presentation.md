@@ -9,7 +9,7 @@
 ## Outline of the session
 
 1. Introduction
- - Playsign & Demos of WebUI GEs in use
+ - <a href="http://www.playsign.net/">Playsign</a> & Demos of WebUI GEs in use
 2. Closer look at the WebUI chapter whole
 3. How to do this yourself?
 4. Simplest way to test
@@ -20,7 +20,7 @@
 
 !
 
-## FIDEMO - WebUI & Context Broker
+## <a href="https://github.com/playsign/fidemo">FIDEMO</a> - WebUI & Context Broker
 
 - buildings automatically from map data (GIS/OSM)
 - real-time public traffic data (from the transit company)
@@ -43,7 +43,11 @@
  - <a
  href="https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/3D-UI_-_WebTundra_-_User_and_Programmers_Guide#Pong_Example">
  3D-UI WebTundra - User and Programmers Guide, Pong Example
-</a>
+ </a>
+- <a href="http://www.meshmoon.com/">Meshmoon</a> is a commercial
+ hosting & service provider for this technology
+ - realXtend.org 's WebTundra & Tundra (FIWARE GEs)
+ - branded as WebRocket and Rocket on Meshmoon
 
 !
 
