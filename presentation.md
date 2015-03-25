@@ -1,47 +1,64 @@
-## Welcome to **Markdown Presenter**!
+## **SpeedUP & FIWARE WebUI**
 
-- Update "presentation.md" by any text editor which you prefer.
- - to separate slides insert a paragraph with an exclamation mark.
-- Hit space key at this browser to rapid reload.
-  - F5 or Ctrl+R reload work well too.
-
-!
-
-## Moving between slides
-
-- Left/Right arrow key to change slide.
-- Swipe left/right on touch device to change slide.
+- Toni Alatalo &lt;toni@playsign.net&gt;
+- Playsign Ltd., Oulu, Finland
+- +358-40-7198759
 
 !
 
-## Jump to the page
-- 0~9 keys and enter to direct page jump like a PowerPoint.
+## Outline of the session
+
+1. Introduction
+ - Playsign & Demos of WebUI GEs in use
+2. Closer look at the WebUI chapter whole
+3. How to do this yourself?
+4. Simplest way to test
+ - standalone local Javascript for 3D
+ - whatever server, locally & in normal VM
+5. Questions, or about dev process and practices
+ - and I'm addicted to <a href="http://www.quora.com/">Quora</a> :)
 
 !
 
-## Page transition effect
+## FIDEMO - WebUI & Context Broker
 
-- 'e','f' key combination to enable fade effect at changing slide.
-- 'e','n' to disable the effect.
-
-!
-
-## Printable
-
-- You can print out this presentation from PC browser.
-- The recomended configuration:
- - Layout - Landscape
- - Margins - No margin
- - Options - Enable to printing background colors
+- buildings automatically from map data (GIS/OSM)
+- real-time public traffic data (from the transit company)
+- cafes, shops etc. (also from Openstreetmaps (OSM))
+- Open311 issues from Context Broker (‘fix the city’ in HKI)
+- Building prices (Finnish Statistics Open Data)
+- adding comments to POIs to Context Broker (Orion)
 
 !
 
-## Share your slides
-
-- If you print out the presentation as a PDF file, then you can upload it to "slideshare.com".
+<a href="webui-architecture.png">
+<img src="webui-architecture.png">
+</a>
 
 !
 
-# Be happy! :)
+## How to do self?
 
-> _Rather than fighting with keynote or powerpoint **for hours**, I can whip up a presentation in minutes using markdown._
+- For a multi-user game or other application, a minimal example:
+ - <a
+ href="https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/3D-UI_-_WebTundra_-_User_and_Programmers_Guide#Pong_Example">
+ 3D-UI WebTundra - User and Programmers Guide, Pong Example
+</a>
+
+!
+
+## Simple way to try 3D Web
+
+- Get <a href="http://threejs.org/">three.js</a>
+- Have local web dev env
+ - http server (Apache, Python, IIS, ..)
+ - or start chrome with <a href="http://www.chrome-allow-file-access-from-file.com/">--allow-file-access-from-files</a>
+- Use an example as a starting point
+- Use any VM / server hosting to publish on the web
+- Or e.g. Google App Engine
+
+!
+
+##Questions?
+
+##Comments?
